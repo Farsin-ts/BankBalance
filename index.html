@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of Bridgeon</title>
+    <link rel="stylesheet" href="balance.css">
+</head>
+<body>
+    <form action="">
+        <h1>Welcome to BOB</h1>
+        
+        <input type="number" id="deposit-amount" placeholder="Enter amount">:
+        <button type="button" onclick="deposit()">DEPOSIT</button> 
+        
+        <br><br>
+
+        <input type="number" id="withdraw-amount" placeholder="Enter amount">:
+        <button type="button" onclick="withdraw()">WITHDRAWAL</button>                  
+        <br><br><br>
+
+        <button type="button" onclick="showBalance()">Check Balance</button>
+        <p>Balance: <span id="balance-amount"></span></p>
+    </form>
+
+
+    <script src="balance.js"></script>
+</body>
+</html>
